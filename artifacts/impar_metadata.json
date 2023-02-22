@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "numero",
+						"type": "int256"
+					}
+				],
+				"name": "adicionarNumerosImpares",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mostrarNumeros",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "numero",
+						"type": "int256"
+					}
+				],
+				"name": "reenviarNumero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"impar.sol": "impar"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"impar.sol": {
+			"keccak256": "0xced00dee6553d0157f515992505215d7c7106ecc919609469f556f43fa48001d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://751740b3884dda619269ede34593c7c5f7cda26ae25dd31b39bd9f18d40512ec",
+				"dweb:/ipfs/QmeByx5GY2JCcvHWtsiddpEeDyCje8vYGkrsmWNdkvy3HJ"
+			]
+		}
+	},
+	"version": 1
+}

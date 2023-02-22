@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nome",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "endereco",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "idade",
+						"type": "int256"
+					}
+				],
+				"name": "enviarCadastro",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nome",
+						"type": "string"
+					}
+				],
+				"name": "mostrarDados",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "endereco",
+								"type": "string"
+							},
+							{
+								"internalType": "int256",
+								"name": "idade",
+								"type": "int256"
+							}
+						],
+						"internalType": "struct cadastrarDados.dadosCadastrais",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cadastrarDados.sol": "cadastrarDados"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cadastrarDados.sol": {
+			"keccak256": "0xd5025004f6dc9e3259bfdb76e729af854a948e6689a2a768f69dcddc700fe3f4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://41685784b3e7913bc54ec5364f55d0efbbb2a9bf9232d0039840502db2f64e89",
+				"dweb:/ipfs/QmWTncqgM2wpZEdKXt28EvxBnhghSoyCfHmUkX8ywhL3xX"
+			]
+		}
+	},
+	"version": 1
+}
